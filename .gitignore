@@ -72,3 +72,5 @@ tmp/
 # Logs
 *.log
 logs/
+
+watch_autopush.sh
