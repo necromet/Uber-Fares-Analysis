@@ -27,7 +27,6 @@ MANIFEST
 */.ipynb_checkpoints/*
 
 # Data Science / Analysis
-*.csv
 *.json
 *.xlsx
 *.xls
