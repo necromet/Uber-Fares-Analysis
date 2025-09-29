@@ -70,7 +70,7 @@ The heatmap analysis reveals clear demand patterns:
 - **Low Demand**: 3:00-6:00 (early morning)
 - **Weekend vs Weekday**: Distinct patterns with weekend demand shifted later
 
-![Demand Heatmap](heatmap_visualization_would_be_here)
+![Demand Heatmap](src/demand_heatmap.png)
 
 #### Location-Based Revenue Analysis
 
@@ -79,6 +79,8 @@ The heatmap analysis reveals clear demand patterns:
 2. **Staten Island**: $17.38 average fare (13 trips)
 3. **Brooklyn**: $12.95 average fare (4,414 trips)
 4. **Manhattan**: $10.21 average fare (181,151 trips)
+
+![Revenue by Location](src/revenue_by_location.png)
 
 **Key Insights:**
 - Manhattan dominates by volume (90.5% of trips) but has lower average fares
@@ -108,6 +110,8 @@ The heatmap analysis reveals clear demand patterns:
 
 **Finding**: Clear economies of scale for group rides, making ride-sharing highly cost-effective.
 
+![Fare Analysis](src/fare_analysis.png)
+
 ### 2.3 Pricing Strategy Insights
 
 #### Dynamic Pricing Evidence
@@ -123,6 +127,8 @@ The heatmap analysis reveals clear demand patterns:
 - **Fare Range**: $3.30 to $53.30 (after outlier treatment)
 - **Distance Anomalies**: Some zero-distance trips with positive fares
 - **Pricing Extremes**: 0.9% of rides have very high (>$20/km) or very low (<$1/km) per-km rates
+
+![Pricing Insights Analysis](src/pricing_insights.png)
 
 ### 2.4 Operational Pattern Analysis
 
@@ -144,16 +150,17 @@ The heatmap analysis reveals clear demand patterns:
 
 **Key Finding**: Short trips (<5km) dominate operations (79.8% of all rides) but longer trips generate disproportionately higher revenue per trip.
 
+![Operational Patterns Analysis](src/operational_patterns.png)
+
 ### 2.5 Data Visualizations
 
 The analysis includes several key visualizations:
 
-1. **Demand Heatmap**: Hour-by-day trip volume patterns
-2. **Fare vs Distance Scatter**: Shows linear relationship with variance
-3. **Revenue by Location Bar Chart**: Compares average fares across pickup locations  
-4. **Time Series Analysis**: Hourly fare variation demonstrating dynamic pricing
-5. **Pricing Analysis Dashboard**: Four-panel view of pricing patterns
-6. **Operational Patterns Dashboard**: Seasonal trends and trip categories
+1. **Demand Heatmap** (`src/demand_heatmap.png`): Hour-by-day trip volume patterns
+2. **Revenue by Location Chart** (`src/revenue_by_location.png`): Compares average fares across pickup locations
+3. **Fare Analysis Charts** (`src/fare_analysis.png`): Shows fare vs distance scatter plot and hourly fare patterns
+4. **Pricing Insights Dashboard** (`src/pricing_insights.png`): Four-panel analysis of dynamic pricing, outliers, and passenger count effects
+5. **Operational Patterns Dashboard** (`src/operational_patterns.png`): Seasonal trends, trip categories distribution, and revenue analysis
 
 ---
 
