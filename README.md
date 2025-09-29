@@ -163,18 +163,6 @@ location_data = get_location(40.7589, -73.9851)
 - Analyzed geographical hotspots for Uber usage
 - Quantified relationship between distance and fare pricing
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Uber for providing the dataset
@@ -183,9 +171,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Your Name** - [@necromet](https://github.com/necromet)
+**Edward** - [@necromet](https://github.com/necromet)
 
 Project Link: [https://github.com/necromet/Uber-Fares-Analysis](https://github.com/necromet/Uber-Fares-Analysis)
-
----
-⭐ If you found this project helpful, please give it a star!
