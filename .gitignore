@@ -38,6 +38,7 @@ MANIFEST
 *.parquet
 
 # API Keys and Secrets
+.venv
 .env
 .env.local
 .env.*.local
