@@ -73,3 +73,5 @@ tmp/
 logs/
 
 watch_autopush.sh
+pickup_geocoded_results.csv
+.gitignore
